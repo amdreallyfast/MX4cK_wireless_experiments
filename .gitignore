@@ -5,4 +5,4 @@
 *
 !*.cs
 !*.txt
-!**/
+!/VS_2013_CS_wireless_access_point/
