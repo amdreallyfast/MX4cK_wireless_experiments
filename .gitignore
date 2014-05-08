@@ -5,4 +5,8 @@
 *
 !*.cs
 !*.txt
-!/VS_2013_CS_wireless_access_point/
+#!/VS_2013_CS_wireless_access_point/
+#!/VS_2013_CS_sockets_and_MX4cK/
+
+# expand these rules to directory deep to reach the root folder of each project
+!/*/
