@@ -38,6 +38,11 @@ namespace VS_2013_CS_wireless_access_point
       {
          //ShowIP.show_IP_main();
 
+         // this code courtesy of 
+         // http://www.codeproject.com/Articles/10649/An-Introduction-to-Socket-Programming-in-NET-using
+
+         // the IP address and sockets used in this function call are those reported on the MX4cK's CLS pmod,
+         // and the MX4cK is running my basic TCPIP wifi demo
          TcpClient client = new TcpClient("10.10.10.126", 5);
          Stream s = client.GetStream();
          StreamReader sr = new StreamReader(s);

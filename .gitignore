@@ -1,9 +1,10 @@
-# I only want to track C# files and text files, so ignore everything, then 
-# selectively un-ignore certain extensions, then extend that un-ignoring to all
-# subfolders.
+# I only want to track select files, so ignore everything, then selectively 
+# un-ignore certain extensions, then extend that un-ignoring to all subfolders.
 
 *
 !*.cs
+!*.cpp
+!*.h
 !*.txt
 #!/VS_2013_CS_wireless_access_point/
 #!/VS_2013_CS_sockets_and_MX4cK/
